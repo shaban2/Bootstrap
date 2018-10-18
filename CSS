@@ -1,0 +1,125 @@
+.topImage {
+  height: 40vh;
+  box-shadow: inset 0 0 2em rgba(0,0,0,.5);
+  /**/
+  background-image: url('google.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+
+}
+
+main {
+  padding-left: 5em;
+  padding-right: 5em;
+  padding-top: 7em;
+  height: 10vh;
+}
+
+
+
+
+p.ex1 {
+    color:white;
+    padding: 40px;
+	padding-left:10px;
+	padding-right:10px;
+	text-align:center;
+	font-size:30px;
+}
+
+
+
+#cta-1 {
+  padding: 40px 10px;
+
+  
+}
+
+.cta-info {
+  border: 4px solid yellow;
+  padding: 60px 20px;
+  padding-left:60px;
+  
+}
+
+.cta-info h3 {
+  font-size: 24px;
+}
+
+.dec-tec {
+  font-size: 60px;
+  
+}
+
+
+
+
+
+
+.portfolio-box {
+  margin-bottom: 15px;
+}
+
+.padding-right-zero {
+  padding-right: 0px;
+}
+.section-padding {
+  padding: 60px 0px;
+}
+.padding-right-zero {
+    padding-right: 15px;
+  }
+  .section {
+  position: relative;
+  padding: 88px 0 67px 0;
+  display: block;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.jumbotron{
+		padding:3rem;
+		border-radius:0;  
+		background-color:#FFA500;
+	}
+.lead{
+text-align:center;
+color:white;
+font-size: 30px;
+}
+
+.align-center{
+text-align:center;
+}
+
+.fb-ic{
+padding-left:20px;
+}
+
+
+
+#contact{
+	
+	padding-left:100px;
+	padding-top:0px;
+}
+
+
+
+
+
+
+
