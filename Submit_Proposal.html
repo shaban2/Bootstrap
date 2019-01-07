@@ -1,0 +1,508 @@
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>website</title>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+
+<script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+
+<link href="https://fonts.googleapis.com/css?family=Alex+Brush" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Lateef" rel="stylesheet">
+
+
+<link href="https://fonts.googleapis.com/css?family=Palanquin" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+
+
+<link rel="shortcut icon" href="logo.png" type="image/x-icon" />
+
+<link href="style2.css" rel="stylesheet">
+</head>
+
+
+
+
+
+
+
+
+
+<body>
+
+
+
+
+
+
+
+
+<nav class="navbar fixed-top navbar-expand-lg navbar-light bg-white text-dark font-weight-bold" id="mainNav">
+      <div class="container">
+	   <a class="navbar-brand justify-content-start" href="#"><a class="navbar-brand" href="#">
+			<img src="logo.png" width="40" height="40" alt="">
+					</a></a>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+					</button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+         <ul class="navbar-nav ml-auto">
+           <li class="nav-item">
+             <a class="nav-link js-scroll-trigger" href="Home.html">Home</a>
+				</li>
+				<li class="nav-item">
+             <a class="nav-link js-scroll-trigger" href="About_us.html">About</a>
+				</li>
+			<li class="nav-item dropdown">
+				<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+					Our Solutions
+				</a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+         <a class="dropdown-item" href="Business_Finance.html">IDEA Business Finance</a>
+		 <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="Crowdsourcing.html">IDEA Crowdsourcing Platform</a>
+			<div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="Growth Center.html">IDEA Growth Center</a>
+		  <div class="dropdown-divider"></div>
+		  <a class="dropdown-item" href="Venture_Fund.html">IDEA Venture Fund</a>
+		  
+			</div>
+		</li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="Careers.html">Careers</a>
+			</li>
+            
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<section id="crowd">
+ 
+	  <div class=" topImage">
+	  
+	  </div>
+	 
+	  </section>
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	   <section id="venture" class="">
+	  
+	  
+	  
+	  <div class="container">
+	<div class=" aboutspc bulbsec col-lg-9 align-center">
+          <div class="section-title">
+            <h2 class="head-title">Fill out your Business Profile for Funding</h2>
+            <hr class="botm-line">
+            
+          </div>
+        </div>
+		
+		
+		
+		
+		
+		
+		
+		
+		<div class="row">
+            <div class="col-lg-9 col-md-offset-2 text-center">
+			<div class="bustext">
+                <p class="palaquin">Thank you for your interest in IDEA Fund. If your company meets our investment criteria, you may use the form to submit a business plan to our attention.</p>
+            </div>
+		</div>
+		</div>
+		
+		
+		<div class="container">
+  <form id="needs-validation" action="mail.php" method="post">
+<legend>Company Information</legend>
+        <div class="row">
+            <div class="col-md-4"><div class="form-group field-proposal-company_name" >
+<label class="control-label" for="proposal-company_name">Company Name</label>
+<input type="text" id="proposal-company_name" class="form-control" name="Proposalcompanyname" required>
+
+<div class="help-block"></div>
+</div></div>
+            <div class="col-md-4"><div class="form-group field-proposal-website">
+<label class="control-label" for="proposal-website">Website</label>
+<input type="url" id="proposal-website" class="form-control" name="Proposalwebsite" required>
+
+<div class="help-block"></div>
+</div></div>
+            <div class="col-md-4"><div class="form-group field-proposal-industry" >
+<label class="control-label" for="proposal-industry">Industry</label>
+<select id="proposal-industry" class="form-control" name="Proposalindustry" required>
+<option value="">Select Industry</option>
+<option value="IT">IT</option>
+<option value="Health">Health</option>
+<option value="Agriculture">Agriculture</option>
+<option value="Music">Music</option>
+<option value="Arts &amp; Crafts">Arts &amp; Crafts</option>
+</select>
+
+<div class="help-block"></div>
+</div></div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-12"><div class="form-group field-proposal-company_description">
+<label class="control-label" for="proposal-company_description">Company Description</label>
+<textarea id="proposal-company_description" class="form-control" name="Proposalcompanydescription" rows="3" required></textarea>
+
+<div class="help-block"></div>
+</div></div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-6"><div class="form-group field-proposal-city" >
+<label class="control-label" for="proposal-city">City</label>
+<input type="text" id="proposal-city" class="form-control" name="Proposalcity" required>
+
+<div class="help-block"></div>
+</div></div>
+            <div class="col-md-6"><div class="form-group field-proposal-address">
+<label class="control-label" for="proposal-address">Address</label>
+<input type="text" id="proposal-address" class="form-control" name="Proposaladdress" required>
+
+<div class="help-block"></div>
+</div></div>
+        </div>
+
+        <fieldset>
+            <legend>Funding Information</legend>
+            <div class="forms-funding">
+
+    <div class="row">
+        <div class="col-md-6"><div class="form-group field-fundinginfo-capital_raised">
+<label class="control-label" for="fundinginfo-capital_raised">Capital Raised (to date)</label>
+<input type="text" id="fundinginfo-capital_raised" class="form-control" name="FundingInfocapitalraised" required>
+
+<div class="help-block"></div>
+</div></div>
+        <div class="col-md-6"><div class="form-group field-fundinginfo-capital_seeking ">
+<label class="control-label" for="fundinginfo-capital_seeking">Capital Seeking</label>
+<input type="text" id="fundinginfo-capital_seeking" class="form-control" name="FundingInfocapitalseeking" required>
+
+<div class="help-block"></div>
+</div></div>
+    </div>
+
+    <div class="row">
+        <div class="col-md-12"><div class="form-group field-fundinginfo-current_investors">
+<label class="control-label" for="fundinginfo-current_investors">Current Investors (if applicable)</label>
+<textarea id="fundinginfo-current_investors" class="form-control" name="FundingInfocurrentinvestors" rows="3" ></textarea>
+
+<div class="help-block"></div>
+</div></div>
+    </div>
+
+</div><!-- forms-funding -->
+        </fieldset>
+
+        <fieldset>
+            <legend>Primary Contact</legend>
+            <div class="forms-contact">
+
+    <div class="row">
+        <div class="col-md-6"><div class="form-group field-contact-first_name required">
+<label class="control-label" for="contact-first_name">First Name</label>
+<input type="text" id="contact-first_name" class="form-control" name="Contactfirstname"  required>
+
+<div class="help-block"></div>
+</div></div>
+        <div class="col-md-6"><div class="form-group field-contact-last_name">
+<label class="control-label" for="contact-last_name">Last Name</label>
+<input type="text" id="contact-last_name" class="form-control" name="Contactlastname" required>
+
+<div class="help-block"></div>
+</div></div>
+    </div>
+
+    <div class="row">
+        <div class="col-md-3"><div class="form-group field-contact-prefix ">
+<label class="control-label" for="contact-prefix">Prefix</label>
+<select id="contact-prefix" class="form-control" name="Contactprefix"required>
+<option value="">Select Prefix</option>
+<option value="Mr">Mr</option>
+<option value="Mrs">Mrs</option>
+<option value="Dr">Dr</option>
+<option value="Eng">Eng</option>
+</select>
+
+<div class="help-block"></div>
+</div></div>
+        <div class="col-md-9"><div class="form-group field-contact-title required">
+<label class="control-label" for="contact-title">Title</label>
+<input type="text" id="contact-title" class="form-control" name="Contacttitle" required>
+
+<div class="help-block"></div>
+</div></div>
+    </div>
+
+    <div class="row">
+        <div class="col-md-6"><div class="form-group field-contact-phone">
+<label class="control-label" for="contact-phone">Phone</label>
+<input type="tel" id="contact-phone" class="form-control" name="Contactphone" required>
+
+<div class="help-block"></div>
+</div></div>
+        <div class="col-md-6"><div class="form-group field-contact-mobile">
+<label class="control-label" for="contact-mobile">Mobile</label>
+<input type="tel" id="contact-mobile" class="form-control" name="Contactmobile" required>
+
+<div class="help-block"></div>
+</div></div>
+    </div>
+
+    <div class="row">
+        <div class="col-md-6"><div class="form-group field-contact-fax">
+<label class="control-label" for="contact-fax">Fax</label>
+<input type="text" id="contact-fax" class="form-control" name="Contactfax" required>
+
+<div class="help-block"></div>
+</div></div>
+        <div class="col-md-6"><div class="form-group field-contact-email required">
+<label class="control-label" for="contact-email">Email</label>
+<input type="email" id="contact-email" class="form-control" name="Contactemail" required>
+
+<div class="help-block"></div>
+</div></div>
+    </div>
+
+</div><!-- forms-contact -->
+        </fieldset>
+
+        <div class="row">
+            <div class="col-md-6"><div class="form-group field-proposal-how_you_found_us required">
+<label class="control-label" for="proposal-how_you_found_us">How Did You Hear About Us?</label>
+<select id="proposal-how_you_found_us" class="form-control" name="Proposalhowyoufoundus" required>
+<option value="">Choose...</option>
+<option value="Google Search">Google Search</option>
+<option value="Heard From a Friend">Heard From a Friend</option>
+</select>
+
+<div class="help-block"></div>
+</div></div>
+            <div class="col-md-6"><div class="form-group field-proposal-referral_name">
+<label class="control-label" for="proposal-referral_name">Referral Name (if applicable)</label>
+<input type="text" id="proposal-referral_name" class="form-control" name="Proposalreferralname" >
+
+<div class="help-block"></div>
+</div></div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-12"><div class="form-group field-proposal-supplementary_documents">
+<label class="control-label" for="proposal-supplementary_documents">Upload Executive Summary, Business Plan or Other Materials</label>
+<input type="hidden" name="Proposalsupplementarydocuments" value=""><input type="file" id="proposal-supplementary_documents" name="Proposalsupplementarydocuments" required>
+
+<div class="help-block"></div>
+</div></div>
+        </div>
+    
+        <div class="form-group">
+            <button type="submit" class="btn btn-warning">Submit</button>        </div>
+    </form>
+</div>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+<div class="footer">
+			<footer class="page-footer">
+
+    
+
+    <!-- Footer Links -->
+	<div style="background-color: #3e4551;">
+    <div class="container text-center text-md-left mt-5">
+
+      <!-- Grid row -->
+      <div class="row">
+
+        <!-- Grid column -->
+        <div class=" cotop col-lg-4">
+
+          <!-- Content -->
+          <h6 class=" co text-uppercase font-weight-bold text-white">IDEA Foundation</h6>
+          <br>
+          <p class="text-white map">
+            <i class="fas fa-map-marker-alt"></i> The Innovation Village 
+             3rd Floor Ntinda Complex<br>P.O Box 25760 Kampala, Uganda </p>
+
+        </div>
+        <!-- Grid column -->
+
+        
+        
+        <!-- Grid column -->
+
+        <!-- Grid column -->
+        <div class=" down  col-lg-4  mx-auto mb-4 links">
+
+          <!-- Links -->
+          <h6 class=" text-uppercase font-weight-bold text-white">Quick Links</h6>
+          <br>
+         
+		 <p class="links">
+            <a href="#!">IDEA Business Finance</a>
+          </p>
+          <p class="links">
+            <a href="#!">IDEA Crowdsourcing Platform</a>
+          </p>
+          <p class="links">
+            <a href="#!">IDEA Growth Center</a>
+          </p>
+          <p class="links">
+            <a href="#!">IDEA Venture Fund</a>
+          </p>
+          <p class="links">
+            <a href="#!">Submit Proposal</a>
+          </p>
+		  <p class="links">
+            <a href="#!">Pitch Your Idea</a>
+          </p>
+		  <p class="links">
+            <a href="#!">The Innovation Village</a>
+          </p>
+        </div>
+        <!-- Grid column -->
+
+        <!-- Grid column -->
+        <div class=" contact col-lg-4   col-md-4 col-xl-3 mx-auto mb-md-0 mb-4">
+
+          <!-- Links -->
+          <h6 class="text-uppercase font-weight-bold text-white">Contacts</h6>
+          <br>
+          <p class="text-white">
+            <i class="fa fa-home mr-3"></i> Plot 33 Ntinda Road</p>
+          <p class="text-white">
+            <i class="fa fa-envelope mr-3"></i> ideas@idea.ug</p>
+			<p class="text-white">
+            <i class="fa fa-envelope mr-3"></i> careers@idea.ug</p>
+			<p class="text-white">
+            <i class="fa fa-envelope mr-3"></i> funding@idea.ug</p>
+          <p class="text-white">
+            <i class="fa fa-phone mr-3"></i>256392892361 </p>
+          <p class="text-white">
+            <i class="fa fa-phone mr-3"></i>0392161664 </p>
+
+        </div>
+        <!-- Grid column -->
+
+      </div>
+      <!-- Grid row -->
+
+    </div>
+	
+    <!-- Footer Links -->
+
+    <!-- Copyright -->
+    <div class="footer-copyright text-center py-3 text-white">© 2018 Copyright.
+      <a href=""></a>
+    </div>
+    <!-- Copyright -->
+</div>
+  </footer>
+  </div>
+  
+
+
+
+
+
+
+
+
+
+
+
+
+<script>
+
+(function() {
+  'use strict';
+
+  window.addEventListener('load', function() {
+    var form = document.getElementById('needs-validation');
+    form.addEventListener('submit', function(event) {
+      if (form.checkValidity() === false) {
+        event.preventDefault();
+        event.stopPropagation();
+      }
+      form.classList.add('was-validated');
+    }, false);
+  }, false);
+})();
+</script>
+
+		
+			
+			
+			
+			
+			
+			
+			
+			 <script src="navbar.js">
+</script>
+		
+		</body>
+		
+		
+		
+		
+		
+		</html>
+		
+		
+		
+		
+		
+		
+		
+		
